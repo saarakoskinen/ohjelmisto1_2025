@@ -8,5 +8,5 @@ while kayttaja != 'python' and salasana != 'rules' and kokeilut < 4:
     kayttaja = input('Syötä käyttäjätunnus: ')
     salasana = input('Syötä salasana: ')
     kokeilut = kokeilut + 1
-    if kayttaja == 'python' and salasana == 'rules':
+if kayttaja == 'python' and salasana == 'rules':
         print('Tervetuloa!')
